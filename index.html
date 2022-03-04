@@ -15,15 +15,35 @@
 <body>
     
     <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-8 py-4">
+                    <p>Il Campo Minato più brutto che esista</p> 
+                </div>
 
+                <div class="col-4 py-4">
+                    <label for="difficoltà">Scegli la difficoltà: </label>
+
+                    <select name="Difficoltà" id="level-options" class="px-5">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+
+                    <button class="px-4" id="play-button">
+                        Play
+                    </button>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div id="my-grid" class="grid">
-                        
+                    <div id="my-grid" class="d-flex">
+
                     </div>
                 </div>
             </div>
@@ -31,7 +51,15 @@
     </main>
 
     <footer>
-
+        <div class="container">
+            <div class="row">
+                <div class="col py-2">
+                    <p>
+                        Made with &hearts; by Boolean
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="myscript.js"></script>
 </body>

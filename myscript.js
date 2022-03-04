@@ -1,7 +1,9 @@
 /* Prendo dall'html il div my grid */
 const myGrid = document.getElementById('my-grid');
 
-/* Funzione per generare un grid-box */
+console.log(myGrid);
+
+/* Funzione per generare un div grid-box */
 const generateDivBox = () => {
     const currentElement = document.createElement('div');
 
@@ -16,6 +18,9 @@ for (let i = 0; i < 100; i++) {
 
     currentBox.addEventListener('click', function () {
         /* Aggiungo a currentBox la classe active */
-        this.classList.add('grid-box-active');
+        this.classList.toggle('grid-box-active');
     })
+
+    /* Aggiungo al parent i 100 div-box */
+    myGrid.appendChild(currentBox);
 }

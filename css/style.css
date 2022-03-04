@@ -1,6 +1,7 @@
 main {
     background-color: #7fffd4;
     height: 85vh;
+    padding: 6rem;
 }
 
 header{
@@ -15,14 +16,15 @@ footer, header {
     background-color: white;
 }
 
-div.grid {
+div#my-grid {
+    flex-wrap: wrap;
     width: 600px;
     height: 600px;
     margin: 0 auto;
     background-color: brown;
 }
 
-div.grid-box {
+.grid-box {
     border: 2px solid white;
     width: calc(100% / 10);
     height: calc(100% / 10);
