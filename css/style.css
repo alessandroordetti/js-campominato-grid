@@ -1,0 +1,35 @@
+main {
+    background-color: #7fffd4;
+    height: 85vh;
+}
+
+header{
+    height: 10vh;
+}
+
+footer {
+    height: 5vh;
+}
+
+footer, header {
+    background-color: white;
+}
+
+div.grid {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+div.grid-box {
+    border: 2px solid white;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    cursor: pointer;
+}
+
+.grid-box-active {
+    background-color: #6495ed;
+}
+
