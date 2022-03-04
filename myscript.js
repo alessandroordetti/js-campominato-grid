@@ -9,13 +9,21 @@ const generateDivBox = () => {
 
     currentElement.classList.add('grid-box');
 
+    console.log(currentElement);
+
     return currentElement;
 }
 
-for (let i = 0; i < 100; i++) {
+
+
+for (let i = 1; i <= 100; i++) {
     /* Creo un singolo quadrato */
     const currentBox = generateDivBox();
 
+    /* Scrivo nel box il numero fino a 100 */
+    currentBox.innerHTML += [i];
+
+    /* Funzione per far diventare i box colorati quando vengono premuti */
     currentBox.addEventListener('click', function () {
         /* Aggiungo a currentBox la classe active */
         this.classList.toggle('grid-box-active');
