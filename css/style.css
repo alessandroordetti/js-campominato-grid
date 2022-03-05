@@ -26,11 +26,18 @@ div#my-grid {
 .grid-box {
     border: 2px solid white;
     width: calc(100% / 10);
-    height: calc(100% / 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+
 }
 
 .grid-box-active {
     background-color: #6495ed;
+}
+
+.boolean-logo {
+    width: 50px;
 }
 
