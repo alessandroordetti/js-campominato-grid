@@ -14,8 +14,15 @@ const generateDivBox = () => {
     return currentElement;
 }
 
+let background = document.querySelector('main');
+
 
 document.getElementById('play-button').addEventListener('click', function (){
+
+    background.classList.remove('background-img');
+
+    
+
     /* Quando premo play il layout della grid si resetta */
     myGrid.innerHTML = "";
 

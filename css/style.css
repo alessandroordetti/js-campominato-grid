@@ -4,6 +4,10 @@ main {
     padding: 6rem;
 }
 
+.background-img {
+    background-image: url('../img/space.jpg');
+}
+
 header{
     height: 10vh;
 }
@@ -30,7 +34,6 @@ div#my-grid {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-
 }
 
 .grid-box-active {
