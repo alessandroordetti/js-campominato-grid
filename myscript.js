@@ -21,8 +21,6 @@ document.getElementById('play-button').addEventListener('click', function (){
 
     background.classList.remove('background-img');
 
-    
-
     /* Quando premo play il layout della grid si resetta */
     myGrid.innerHTML = "";
 
@@ -74,4 +72,13 @@ document.getElementById('play-button').addEventListener('click', function (){
         }
     }
 })
+
+
+document.getElementById('reset-button').addEventListener('click', function(){
+    myGrid.innerHTML = "";
+
+    background.classList.add('background-img');
+});
+
+
 

@@ -17,32 +17,36 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-8 py-4 d-flex align-items-center">
+                <div class="col-7 py-4 d-flex align-items-center">
                     <div class="boolean-logo mx-3">
-                        <img src="img/Logo.png" alt="">
+                        <img src="img/Logo.png" alt="Logo Boolean">
                     </div>
                     
                     <p class="fw-bolder d-inline my-0">Il Campo Minato più brutto che esista progettato da Alessandro</p> 
                 </div>
 
-                <div class="col-4 py-4">
-                    <label for="difficoltà">Scegli la difficoltà: </label>
+                <div class="col-5 py-4 d-flex align-items-center">
+                    <label for="level-options">Scegli la difficoltà: </label>
 
-                    <select name="Difficoltà" id="level-options" class="px-5">
+                    <select name="Difficoltà" id="level-options" class="px-5 mx-2">
                         <option value="easy">Easy</option>
                         <option value="medium">Medium</option>
                         <option value="hard">Hard</option>
                     </select>
 
-                    <button class="rounded px-4" id="play-button">
+                    <button class="rounded px-4 btn-primary" id="play-button">
                         Play
+                    </button>
+
+                    <button class="rounded px-4 mx-3 btn-primary" id="reset-button">
+                        Reset
                     </button>
                 </div>
             </div>
         </div>
     </header>
 
-    <main class="background-img ">
+    <main class="background-img text-white">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -65,6 +69,7 @@
             </div>
         </div>
     </footer>
+    
     <script src="myscript.js"></script>
 </body>
 </html>

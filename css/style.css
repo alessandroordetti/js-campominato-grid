@@ -1,5 +1,8 @@
+body{
+    overflow-y: hidden;
+}
 main {
-    background-color: #7fffd4;
+    background-color: #32777a;
     height: 85vh;
     padding: 6rem;
 }
@@ -17,7 +20,7 @@ footer {
 }
 
 footer, header {
-    background-color: white;
+    background-color: rgb(212, 141, 226);
 }
 
 div#my-grid {
@@ -42,5 +45,9 @@ div#my-grid {
 
 .boolean-logo {
     width: 50px;
+}
+
+#play-button, #reset-button {
+    border: 1px solid black;
 }
 
