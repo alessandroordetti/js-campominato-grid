@@ -9,6 +9,7 @@ main {
 
 .background-img {
     background-image: url('../img/space.jpg');
+    background-repeat: no-repeat;
 }
 
 header{
