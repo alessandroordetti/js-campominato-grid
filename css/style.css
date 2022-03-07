@@ -51,3 +51,7 @@ div#my-grid {
     border: 1px solid black;
 }
 
+.bomb-box-active {
+    background-color: rgba(255, 0, 0, 0.596);
+    color: white;
+}
